@@ -207,3 +207,22 @@ button:hover {
 	margin-top: 20px;
 	cursor: pointer;
 }
+
+#services .facts {
+	display: flex;
+	padding-top: 42px;
+	border-top: 1px solid black;
+}
+
+#services .facts article {
+	margin-right: 20px;
+}
+
+#services .facts ul {
+	list-style-type: square;
+	margin: 20px 0 0 20px;
+}
+
+#services .facts ul li {
+	margin-top: 10px;
+}
