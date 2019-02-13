@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.test {
+	outline: red solid 1px;
+}
+
+p {
+	line-height: 1.15;
+}
+
+/* Container Div */
+.container {
+	width: 876px;
+	margin: 0 auto;
+}
+
+/* Navbar */
+nav {
+	margin-top: 29px;
+}
+
+nav a {
+	display: inline-block;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+	margin-right: 63px;
+}
+
+nav .logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+/* =====INDEX STYLES===== */
+
+/* Header */
+#index header {
+	margin-top: 68px;
+	padding-bottom: 75px;
+	border-bottom: 1px solid black;
+}
+
+#index header .header-left {
+	display: inline-block;
+	width: 493px;
+	text-align: center;
+	vertical-align: top;
+}
+
+#index header h1 {
+	font-size: 75px;
+	margin-top: 58px;
+}
+
+#index header button {
+	color: black;
+	background: white;
+	border: 1px solid black;
+	padding: 5px 40px;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/* #index header img {
+	display: inline-block;
+} */
+
+/* Top Content */
+#index .top-content {
+	margin: 39px 0 37px 0;
+}
+
+#index .top-content article {
+	display: inline-block;
+	width: 49%;
+}
+
+/* Bottom Content */
+#index .bot-content {
+	margin-top: 37px;
+	padding-bottom: 46px;
+	border-bottom: 1px solid black;
+}
+
+#index .bot-content article {
+	display: inline-block;
+	width: 33%;
+}
+
+/* Contact */
+#index .contact {
+	margin-top: 39px;
+}
+
+#index .contact p {
+	margin-top: 17px;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	font-size: 14px;
+	margin: 54px 0 115px 0;
+}
