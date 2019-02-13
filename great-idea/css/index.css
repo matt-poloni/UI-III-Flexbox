@@ -81,42 +81,38 @@ p {
 
 /* Navbar */
 nav {
-	margin-top: 29px;
+	margin-top: 27px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav a {
-	display: inline-block;
 	font-size: 14px;
-	color: gray;
+	color: darkgray;
 	text-decoration: none;
-	margin-right: 63px;
-}
-
-nav .logo {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 30px;
 }
 
 /* =====INDEX STYLES===== */
 
 /* Header */
 #index header {
-	margin-top: 68px;
-	padding-bottom: 75px;
+	padding: 68px 0 77px 0;
 	border-bottom: 1px solid black;
+	display: flex;
 }
 
 #index header .header-left {
-	display: inline-block;
-	width: 493px;
-	text-align: center;
-	vertical-align: top;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 
 #index header h1 {
-	font-size: 75px;
-	margin-top: 58px;
+	font-size: 77px;
+	text-align: center;
 }
 
 #index header button {
@@ -132,35 +128,31 @@ button:hover {
 	cursor: pointer;
 }
 
-/* #index header img {
-	display: inline-block;
-} */
+/* Content Sections */
 
-/* Top Content */
-#index .top-content {
-	margin: 39px 0 37px 0;
+#index .content {
+	margin-top: 39px;
+	display: flex;
+	justify-content: space-between;
 }
 
-#index .top-content article {
-	display: inline-block;
-	width: 49%;
+#index .content article {
+	margin-right: 20px;
 }
 
-/* Bottom Content */
-#index .bot-content {
+#index .content article:last-of-type {
+	margin-right: 0;
+}
+
+#index .middle-img {
 	margin-top: 37px;
-	padding-bottom: 46px;
-	border-bottom: 1px solid black;
-}
-
-#index .bot-content article {
-	display: inline-block;
-	width: 33%;
 }
 
 /* Contact */
 #index .contact {
-	margin-top: 39px;
+	margin-top: 44px;
+	border-top: 1px solid black;
+	padding-top: 39px;
 }
 
 #index .contact p {
